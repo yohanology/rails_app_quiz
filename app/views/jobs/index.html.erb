@@ -1,0 +1,10 @@
+<h1>List of all Jobs</h1>
+
+<% @jobs.each do |job| %>
+  <div>
+    <%= job.id %>
+    <%= job.employer_name %>
+    <%= job.job_title %>
+    <%= job.job_description %>
+  </div>
+<% end %>
